@@ -1,0 +1,37 @@
+{
+  "title": "PROVA CTO – L3",
+  "description": "Comune di Borgoverde (inventato) · Livello 3 del cruscotto dell'ufficio: la circolare scritta dagli appunti, con i controlli e l'archivio numerato.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "circolari",
+      "title": "Circolari",
+      "description": "Scrivi gli appunti o carica l'esempio, poi «Scrivi il testo». I controlli segnalano date impossibili, sigle e frasi lunghe; si emette solo senza errori.",
+      "metrics": [],
+      "columns": [],
+      "rows": [],
+      "form": [],
+      "kind": "compose",
+      "compose": {
+        "header": [
+          "COMUNE DI ROVIGO",
+          "Il Segretario comunale"
+        ],
+        "documentName": "Circolare",
+        "place": "Borgoverde",
+        "signature": "Il Segretario generale",
+        "recipients": "Ai Responsabili di Area",
+        "tones": [
+          "formale",
+          "cordiale",
+          "di sollecito"
+        ],
+        "maxWords": 25,
+        "example": {
+          "subject": "Piano delle ferie del personale",
+          "notes": "ricordare a tutti ferie entro 31/4, mod. nuovo da usare (allegato), chi non lo fa decide il resp. di area. mandare a Personale. grazie"
+        }
+      }
+    }
+  ]
+}
